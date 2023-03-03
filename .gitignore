@@ -1,6 +1,5 @@
-*.рус
-*~
-__pycache__
+env
 venv
-/static
-.DS_Store
+**/*.pyc
+node_modules/
+build

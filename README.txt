@@ -83,3 +83,17 @@ Post.objects.get(pk = 7).delete()
 
 # Выход
 exit()
+
+# Для настройки аутентификации по токенам
+pip install djoser
+
+#Список пользоватей
+http://127.0.0.1:8000/api/v1/auth/users/
+
+# Авторизация пользователя по токену
+http://127.0.0.1:8000/auth/token/login/
+
+# токен пользователя Kirill 88a75abb83da4bf32c25491fcf906b1ed1a60a3a
+
+# Выход из системы
+http://127.0.0.1:8000/auth/token/logout/ POST-запрос на эту ссылку
